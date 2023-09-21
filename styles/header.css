@@ -60,8 +60,26 @@
 
 @media screen and (min-width:1024px) {
     .titulo__cabeçalho{
-font-size: 40px;
-font-family: Oswald;
-color: rgb(47,79,79);
-display: block;}
-    }
+       font-size: 40px;
+       font-family: Oswald;
+       color: rgb(47,79,79);
+       display: block;
+}
+.opcoes{
+    display: flex;
+}
+ .opcoes__item{
+    padding: 0 1em;
+ } 
+ .opcoes__link{
+    text-decoration: none;
+    color: var(--preto);
+ }
+ .container__imagem--transparente{
+    display: none;
+ }
+ .cabecalho__menu-hamburguer{
+    display: none;
+ }
+
+}
